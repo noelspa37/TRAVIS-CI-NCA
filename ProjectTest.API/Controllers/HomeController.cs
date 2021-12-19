@@ -21,7 +21,7 @@ namespace ProjectTest.API.Controllers
         public string Get()
         {
             _logger.LogInformation("Initial Home Get");
-            return $"Demo Travis - Net Core 5.0 v2.1.1 Running ... {_configuration["Company:Name"]} - {_configuration["Company:Author"]}";
+            return $"Demo Travis - Net Core 5.0 v2.1.1 Running 1 2 3 ... {_configuration["Company:Name"]} - {_configuration["Company:Author"]}";
         }
     }
 }
